@@ -2,15 +2,17 @@ import { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Popup from './components/Popup';
+import Button from "react-bootstrap/Button";
+
 
 function App() {
  const [pop,setPop] = useState(false);
   //console.log(pop);
   return (
     <div className="App">
-      <button onClick={() => setPop(true)}>Save segment</button>
+      <button className="outline-light" onClick={() => setPop(true)}>Save segment</button>
       {
-        pop && <Popup/>
+        pop && <Popup pop={setPop}/>
       }  
     </div>
   );

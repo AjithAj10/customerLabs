@@ -1,17 +1,99 @@
 .popBg{
+  position:absolute;
     background-color: rgb(255, 255, 255);
-    max-width: 30rem;
+    width: max-content;
+    height: 150vh;
+    top: 0;
+    right: 0;
+    text-align: left;
+  }
+  .header{
+    background-color: rgb(92, 184, 207);
+    padding: 1.2rem;
+    font-weight: 600;
+    color: white;
+  }
+  .body{
+    margin: 1.4rem;
+  }
+
+.outline-light{
+  margin-left: 10rem;
+  margin-top: 1rem;
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 8px;
+}
+
+.link{
+  background: none;
+  color: blue;
+  text-decoration: underline;
+  border: none;
+  outline: none;
+  padding: 8px;
+  display: block;
+}
+.bottom{
+  background-color: #e9e9e9;
+    padding: 1rem;
+  margin-top: 1rem;
+}
+.success{
+  background:  rgb(92, 184, 207);
+  border: none;
+  outline: none;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+.danger{
+  background-color: white;
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  padding: 8px;
+  color: red;
+  border-radius: 5px;
+
+}
+
+  label{
+    display: block;
+    margin: 1rem;
+
+  }
+  input{
+    padding: 8px;
+    font-size: medium;
+    width: 100%;
+  }
+  select{
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
   }
   
   .border{
     display: flex;
     flex-direction: column;
-
+width: 100%;
     box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   padding: 1rem;
-  border: 5px solid #5a8bf5 !important;
+  border: 2px solid #5a8bf5 !important;
   margin: 10px;
  
+  }
+
+  @media screen and (max-width: 900px) {
+    .outline-light{
+      margin-left: 3rem;
+    }
   }
