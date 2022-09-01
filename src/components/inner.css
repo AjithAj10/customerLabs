@@ -1,4 +1,17 @@
 .popBg{
-    background-color: rgb(209, 71, 71);
+    background-color: rgb(255, 255, 255);
     max-width: 30rem;
+  }
+  
+  .border{
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 1rem;
+  border: 5px solid #5a8bf5 !important;
+  margin: 10px;
+ 
   }

@@ -5,7 +5,7 @@ import Popup from './components/Popup';
 
 function App() {
  const [pop,setPop] = useState(false);
-  console.log(pop);
+  //console.log(pop);
   return (
     <div className="App">
       <button onClick={() => setPop(true)}>Save segment</button>
