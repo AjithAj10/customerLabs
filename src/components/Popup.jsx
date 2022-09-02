@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import Form from "react-bootstrap/Form";
 import axios from "axios";
 import "./inner.css";
 function Popup(props) {

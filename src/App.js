@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Popup from './components/Popup';
-import Button from "react-bootstrap/Button";
 
 
 function App() {
